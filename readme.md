@@ -11,7 +11,7 @@ Create a function named math with the argument "a". Return the second power(dara
 
 **Example :**
 
-**Input**: *z (int)*.\
+**Input**: *a (int)*.\
 **Output**: *Return answer (int)*.
 
 |   **Input**   |   **Output**    |
@@ -22,7 +22,7 @@ Create a function named math with the argument "a". Return the second power(dara
 
 **Constraints:** 
 
- -10^9 < z, b < 10^9
+ -10^9 < a, b < 10^9
 ## math_function02
 Create a function named math with the argument "a". Return the third power(daraja) of "a".
 
@@ -32,7 +32,7 @@ Create a function named math with the argument "a". Return the third power(daraj
 
 **Example :**
 
-**Input**: *z (int)*.\
+**Input**: *a (int)*.\
 **Output**: *Return answer (int)*.
 
 |   **Input**   |   **Output**    |
@@ -43,7 +43,7 @@ Create a function named math with the argument "a". Return the third power(daraj
 
 **Constraints:** 
 
- -10^9 < z, b < 10^9
+ -10^9 < a, b < 10^9
 ## math_function03
 Create a function named math with the argument "a". Return the 'a' power(daraja) of "a".
 
@@ -53,7 +53,7 @@ Create a function named math with the argument "a". Return the 'a' power(daraja)
 
 **Example :**
 
-**Input**: *z (int)*.\
+**Input**: *a (int)*.\
 **Output**: *Return answer (int)*.
 
 |   **Input**   |   **Output**    |
@@ -64,7 +64,7 @@ Create a function named math with the argument "a". Return the 'a' power(daraja)
 
 **Constraints:** 
 
- -10^9 < z, b < 10^9
+ -10^9 < a, b < 10^9
 ## math_function04
 Create a function named math with the arguments "a" and 'b'. Return the 'b' power(daraja) of "a".
 
@@ -74,7 +74,7 @@ Create a function named math with the arguments "a" and 'b'. Return the 'b' powe
 
 **Example :**
 
-**Input**: *z (int)*.\
+**Input**: *a (int)*.\
 **Output**: *Return answer (int)*.
 
 |   **Input**   |   **Output**    |
@@ -85,7 +85,7 @@ Create a function named math with the arguments "a" and 'b'. Return the 'b' powe
 
 **Constraints:** 
 
- -10^9 < z, b < 10^9
+ -10^9 < a, b < 10^9
 ## math_function05
 Create a function named math with the arguments "a" and 'b'. Return the 'b' power(daraja) of "a".
 
@@ -95,7 +95,7 @@ Create a function named math with the arguments "a" and 'b'. Return the 'b' powe
 
 **Example :**
 
-**Input**: *z (int)*.\
+**Input**: *a (int)*.\
 **Output**: *Return answer (int)*.
 
 |   **Input**   |   **Output**    |
@@ -106,7 +106,7 @@ Create a function named math with the arguments "a" and 'b'. Return the 'b' powe
 
 **Constraints:** 
 
- -10^9 < z, b < 10^9
+ -10^9 < a, b < 10^9
 ## math_function05
 Create a function named math with the arguments "a" and 'b'. Return the 'b' power(daraja) of "a".
 
@@ -116,7 +116,7 @@ Create a function named math with the arguments "a" and 'b'. Return the 'b' powe
 
 **Example :**
 
-**Input**: *z (int)*.\
+**Input**: *a,b (int)*.\
 **Output**: *Return answer (int)*.
 
 |   **Input**   |   **Output**    |
@@ -127,7 +127,7 @@ Create a function named math with the arguments "a" and 'b'. Return the 'b' powe
 
 **Constraints:** 
 
- -10^9 < z, b < 10^9
+ -10^9 < a, b < 10^9
 ## math_function06
 Create a function named math with the arguments "a" and 'b'. Return the 'b' power(daraja) of "a".
 
@@ -137,7 +137,7 @@ Create a function named math with the arguments "a" and 'b'. Return the 'b' powe
 
 **Example :**
 
-**Input**: *z (int)*.\
+**Input**: *a,b (int)*.\
 **Output**: *Return answer (int)*.
 
 |   **Input**   |   **Output**    |
@@ -148,4 +148,214 @@ Create a function named math with the arguments "a" and 'b'. Return the 'b' powe
 
 **Constraints:** 
 
- -10^9 < z, b < 10^9
+ -10^9 < a, b < 10^9
+## math_function07
+Create a function named math with the arguments "a" and 'b'. Return the 'b' power(daraja) of "a" and decrease to 1.
+
+
+<img src="https://latex.codecogs.com/svg.image?(a^b)-1" />.
+ 
+
+**Example :**
+
+**Input**: *a,b (int)*.\
+**Output**: *Return answer (int)*.
+
+|   **Input**   |   **Output**    |
+|---------------|-----------------|
+|4,2            |15               |
+|2,2            |3                |
+
+
+**Constraints:** 
+
+ -10^9 < a, b < 10^9
+## math_function08
+Create a function named math with the arguments "a" and 'b'. Return the 'b' power(daraja) of "a" and increase to 1.
+
+
+<img src="https://latex.codecogs.com/svg.image?(a^b)+1" />.
+ 
+
+**Example :**
+
+**Input**: *a,b (int)*.\
+**Output**: *Return answer (int)*.
+
+|   **Input**   |   **Output**    |
+|---------------|-----------------|
+|4,2            |17               |
+|2,2            |5                |
+
+
+**Constraints:** 
+
+ -10^9 < a, b < 10^9
+## math_function09
+Create a function named math with the arguments "a". Find the root of 'a'.
+
+
+<img src="https://latex.codecogs.com/svg.image?\sqrt{a}" />.
+ 
+
+**Example :**
+
+**Input**: *a(int)*.\
+**Output**: *Return answer (int)*.
+
+|   **Input**   |   **Output**    |
+|---------------|-----------------|
+|7              |2.6              |
+|81             |9                |
+
+
+**Constraints:** 
+
+ -10^9 < a, b < 10^9
+## math_function10
+Create a function named math with the arguments "a". Find the root of 'a'.
+
+
+<img src="https://latex.codecogs.com/svg.image?a+\sqrt{a}" />.
+ 
+
+**Example :**
+
+**Input**: *a(int)*.\
+**Output**: *Return answer (int)*.
+
+|   **Input**   |   **Output**    |
+|---------------|-----------------|
+|12             |15.46            |
+|81             |90               |
+
+
+**Constraints:** 
+
+ -10^9 < a, b < 10^9
+## math_function11
+Create a function named math with the arguments "a". Find the root of 'a'.
+
+
+<img src="https://latex.codecogs.com/svg.image?a^2+\sqrt{a}" />.
+ 
+
+**Example :**
+
+**Input**: *a(int)*.\
+**Output**: *Return answer (int)*.
+
+|   **Input**   |   **Output**    |
+|---------------|-----------------|
+|12             |147.46           |
+|81             |776170           |
+
+
+**Constraints:** 
+
+ -10^9 < a, b < 10^9
+## math_function12
+Create a function named math with the arguments "a".and 'b' Find the root of 'a' and increase to 'b'.
+
+
+<img src="https://latex.codecogs.com/svg.image?b+\sqrt{a}" />.
+ 
+
+**Example :**
+
+**Input**: *a,b(int)*.\
+**Output**: *Return answer (int)*.
+
+|   **Input**   |   **Output**    |
+|---------------|-----------------|
+|12,2           |5.46             |
+|81,3           |12               |
+
+
+**Constraints:** 
+
+ -10^9 < a, b < 10^9
+## math_function13
+Create a function named math with the arguments "a"and 'b'. Find the root of 'a' and increase to 'b'.
+
+
+<img src="https://latex.codecogs.com/svg.image?b-\sqrt{a}" />.
+ 
+
+**Example :**
+
+**Input**: *a,b(int)*.\
+**Output**: *Return answer (int)*.
+
+|   **Input**   |   **Output**    |
+|---------------|-----------------|
+|12,2           |-1.46            |
+|81,3           |-6               |
+
+
+**Constraints:** 
+
+ -10^9 < a, b < 10^9
+## math_function14  
+Create a function named math with the arguments "a". Find the root of 'a' .
+
+
+<img src="https://latex.codecogs.com/svg.image?\sqrt{a^{3}}" />.
+ 
+
+**Example :**
+
+**Input**: *a(int)*.\
+**Output**: *Return answer (int)*.
+
+|   **Input**   |   **Output**    |
+|---------------|-----------------|
+|12             |41.569           |
+|81             |729              |
+
+
+**Constraints:** 
+
+ -10^9 < a, b < 10^9
+## math_function14  
+Create a function named math with the arguments "a". Find the root of 'a' .
+
+
+<img src="https://latex.codecogs.com/svg.image?\sqrt{a^{3}}" />.
+ 
+
+**Example :**
+
+**Input**: *a(int)*.\
+**Output**: *Return answer (int)*.
+
+|   **Input**   |   **Output**    |
+|---------------|-----------------|
+|12             |41.569           |
+|81             |729              |
+
+
+**Constraints:** 
+
+ -10^9 < a, b < 10^9
+## math_function15  
+Create a function named math with the arguments "a". Find the root of 'a' .
+
+
+<img src="https://latex.codecogs.com/svg.image?\sqrt{a}^{3}" />.
+ 
+
+**Example :**
+
+**Input**: *a(int)*.\
+**Output**: *Return answer (int)*.
+
+|   **Input**   |   **Output**    |
+|---------------|-----------------|
+|12             |41.569           |
+|81             |729              |
+
+
+**Constraints:** 
+
+ -10^9 < a, b < 10^9
